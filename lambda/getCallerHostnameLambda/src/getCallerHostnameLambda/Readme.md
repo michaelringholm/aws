@@ -1,6 +1,8 @@
 # MRS
+Basically all you need to do is call ./publish.sh or ./publish.ps1 for powershell. You will need the aws cli and dotnet lambda extension installed which is described in those files as well.
+
+https://aws.amazon.com/blogs/developer/deploying-net-core-aws-lambda-functions-from-the-command-line/
 https://docs.aws.amazon.com/lambda/latest/dg/lambda-dotnet-coreclr-deployment-package.html
-dotnet publish -f netcoreapp2.1 -c Release
 
 # Zip contents with no sub folders before upload
 

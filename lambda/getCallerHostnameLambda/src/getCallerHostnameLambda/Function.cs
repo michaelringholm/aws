@@ -17,7 +17,6 @@ namespace getCallerHostnameLambda
     {
         
         /// <summary>
-        /// A simple function that takes a string and does a ToUpper
         /// </summary>
         /// <param name="input"></param>
         /// <param name="context"></param>
@@ -26,8 +25,6 @@ namespace getCallerHostnameLambda
         //public string FunctionHandler(string input, ILambdaContext context, APIGatewayProxyRequest request)
         public APIGatewayProxyResponse FunctionHandler(Object input, ILambdaContext context)
         {            
-            //var forwardedHost = request.Headers["X-Forwarded-Host"];
-            //Console.WriteLine($"forwardedHost:{forwardedHost}");
             context.Logger.LogLine($"input:{input.ToString()}");
             string ipAddressString = null; //"www.amazon.de";
             var httpRequest = JsonConvert.DeserializeObject<HttpRequest>(input.ToString());
@@ -53,9 +50,11 @@ namespace getCallerHostnameLambda
                 context.Logger.LogLine(ex.Message);
                 context.Logger.LogLine(ex.StackTrace);
             }
-            var response = new APIGatewayProxyResponse();
-            response.StatusCode = 200;
-            response.Body = JsonConvert.SerializeObject(new { callerHostName = callerHostName, callerIP = callerIP, xForwardedFor = ipAddressString });
+
+            var response = new APIGatewayProxyResponse{
+                StatusCode = 200,
+                Body = JsonConvert.SerializeObject(new { callerHostName = callerHostName, callerIP = callerIP, xForwardedFor = ipAddressString } )
+            };
             return response;
         }
     }
