@@ -1,0 +1,12 @@
+C:\Data\GitHub\aws\lambda\URLService\bin\Release\netcoreapp3.1\URLService.deps.json
+C:\Data\GitHub\aws\lambda\URLService\bin\Release\netcoreapp3.1\URLService.dll
+C:\Data\GitHub\aws\lambda\URLService\bin\Release\netcoreapp3.1\URLService.pdb
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.csprojAssemblyReference.cache
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.csproj.CoreCompileInputs.cache
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.AssemblyInfoInputs.cache
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.AssemblyInfo.cs
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.dll
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.pdb
+C:\Data\GitHub\aws\lambda\URLService\bin\Release\netcoreapp3.1\URLService.runtimeconfig.json
+C:\Data\GitHub\aws\lambda\URLService\bin\Release\netcoreapp3.1\URLService.runtimeconfig.dev.json
+C:\Data\GitHub\aws\lambda\URLService\obj\Release\netcoreapp3.1\URLService.genruntimeconfig.cache

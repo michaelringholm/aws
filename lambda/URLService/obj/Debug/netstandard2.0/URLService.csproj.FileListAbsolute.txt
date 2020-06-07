@@ -1,0 +1,9 @@
+C:\Data\GitHub\aws\lambda\URLService\bin\Debug\netstandard2.0\URLService.deps.json
+C:\Data\GitHub\aws\lambda\URLService\bin\Debug\netstandard2.0\URLService.dll
+C:\Data\GitHub\aws\lambda\URLService\bin\Debug\netstandard2.0\URLService.pdb
+C:\Data\GitHub\aws\lambda\URLService\obj\Debug\netstandard2.0\URLService.csprojAssemblyReference.cache
+C:\Data\GitHub\aws\lambda\URLService\obj\Debug\netstandard2.0\URLService.csproj.CoreCompileInputs.cache
+C:\Data\GitHub\aws\lambda\URLService\obj\Debug\netstandard2.0\URLService.AssemblyInfoInputs.cache
+C:\Data\GitHub\aws\lambda\URLService\obj\Debug\netstandard2.0\URLService.AssemblyInfo.cs
+C:\Data\GitHub\aws\lambda\URLService\obj\Debug\netstandard2.0\URLService.dll
+C:\Data\GitHub\aws\lambda\URLService\obj\Debug\netstandard2.0\URLService.pdb

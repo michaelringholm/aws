@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tffJQUyVZUIT75whRoQgn5kCiYxE0DotqUgvT2gfUXDP7Dp/ng/2cQPTHDLJqlRbft0UUUjopNO+5MvCIQ96FA==",
+  "success": true,
+  "projectFilePath": "C:\\Data\\GitHub\\aws\\lambda\\URLService\\URLService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michael Sundgaard\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.1.0\\amazon.lambda.apigatewayevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\Michael Sundgaard\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\Michael Sundgaard\\.nuget\\packages\\amazon.lambda.serialization.json\\1.7.0\\amazon.lambda.serialization.json.1.7.0.nupkg.sha512",
+    "C:\\Users\\Michael Sundgaard\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

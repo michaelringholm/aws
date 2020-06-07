@@ -22,7 +22,7 @@ namespace getCallerHostnameLambda.Tests
             var function = new Function();
             var context = new TestLambdaContext();
             var response = function.FunctionHandler("hello world", context);
-            Assert.Equal("Message from Skynet!", response);
+            Assert.Equal("Message from Skynet!", "aaa");
         }
     }
 }
